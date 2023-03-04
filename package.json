@@ -1,20 +1,25 @@
 {
   "name": "@use-sptruz/axios",
-  "version": "0.0.1",
-  "description": "@use-sptruz/axios is a React hook that handles the state for an API call using Axios.",
-  "keywords": [],
+  "version": "0.0.2",
+  "description": "A React hook for making API calls with axios and managing their state.",
+  "keywords": [
+    "axios",
+    "react",
+    "hook",
+    "API"
+  ],
   "author": {
     "name": "Mohammad Abu Mattar",
     "email": "mohammad.khaled@outlook.com",
     "url": "https://mkabumattar.github.io/"
   },
-  "homepage": "https://github.com/use-sptruz/axios#readme",
+  "homepage": "https://github.com/use-sptruz/use-sptruz-axios#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/use-sptruz/axios.git"
+    "url": "git+https://github.com/use-sptruz/use-sptruz-axios.git"
   },
   "bugs": {
-    "url": "https://github.com/use-sptruz/axios/issues"
+    "url": "https://github.com/use-sptruz/use-sptruz-axios/issues"
   },
   "scripts": {
     "lint:fix": "eslint --ignore-path .eslintignore \"src/**/*.ts\" --fix",
@@ -27,7 +32,7 @@
     "clean:types": "rm -rf lib/types",
     "build": "npm run clean:lib && rollup --config rollup.config.mjs && npm run clean:types"
   },
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": "*"

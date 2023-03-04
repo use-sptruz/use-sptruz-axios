@@ -39,7 +39,7 @@ const MyComponent = () => {
 
   return (
     <div>
-      <h1>{response.data.title}</h1>
+      <h1>{response?.data.title}</h1>
       <button onClick={refetch}>Refetch</button>
     </div>
   );
